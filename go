@@ -98,9 +98,9 @@ def get_new_ip(username,psssword):
 
 if __name__ == '__main__':
     count = 0
-    myusername = 'user'
-    mypassword = '4atmqndu'
-    myurl = 'https://www.maimemo.com/share/page?uid=6644260&pid=a283240dc67f535160511707e2070b88&tid=18211160c84c73661eda69e331ac5af0'
+    myusername = ''
+    mypassword = ''
+    myurl = ''
     while count<20:
         session = requests.session()
         user_agent_list = [
